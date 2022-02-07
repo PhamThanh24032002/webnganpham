@@ -1,0 +1,572 @@
+.container {
+    max-width: 1230px;
+    margin: 0 auto;
+}
+
+.header_background {
+    background: black;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header_background .login_register a {
+    color: white;
+    text-decoration: none;
+}
+
+.header_background .cart .icon_cart {
+    color: white;
+}
+
+.header_background .cart .name_cart a {
+    color: white;
+    text-decoration: none;
+}
+
+.header_background .logo_position {
+    display: flex;
+    width: 42%;
+}
+
+.header_background .logo_position .login_register {
+    width: 65%;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 26px;
+}
+
+.header_background .logo {
+    order: 2;
+}
+
+.header_background .logo img {
+    width: 80%;
+    padding: 5px 9px;
+}
+
+.header_background .cart {
+    display: flex;
+    width: 7%;
+    width: 5%;
+    margin-top: 26px;
+}
+
+.header_background .cart .name_cart {
+    width: 80%;
+}
+
+.menu {
+    background-color: #dcdcdc;
+    height: 50px;
+}
+
+.menu .ul {
+    display: flex;
+    justify-content: center;
+}
+
+.menu .ul .li {
+    padding: 0 20px;
+    margin-top: 15px;
+}
+
+.menu .ul .li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.banner .image_banner img {
+    width: 100%;
+    object-fit: fill;
+    height: 400px;
+    margin-top: 30px;
+}
+
+
+/* san pham noi bat */
+
+.title_product_new {
+    margin-top: 30px;
+}
+
+.title_product_new .product_title_specal p {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: ui-monospace;
+    border-bottom: 3px solid black;
+}
+
+.title_product_new .produt_highlights {
+    display: flex;
+    width: 100%;
+    gap: 50px;
+    position: relative;
+}
+
+.title_product_new .produt_highlights .boder_product_high {
+    width: 33.33%;
+}
+
+.title_product_new .produt_highlights .boder_product_high .detail_product_high {
+    position: absolute;
+    top: 40%;
+    padding-left: 9%;
+}
+
+.title_product_new .produt_highlights .boder_product_high .image_produt_high img:hover,
+.name_product_high {
+    display: block;
+}
+
+.title_product_new .produt_highlights .boder_product_high .detail_product_high .name_product_high {
+    border-radius: 9px 9px 9px 9px;
+    border: 1px solid black;
+    padding: 1px 40px;
+    background: black;
+    display: none;
+}
+
+.title_product_new .produt_highlights .boder_product_high .detail_product_high .name_product_high p {
+    color: white;
+    font-size: 15px;
+}
+
+.title_product_new .produt_highlights .boder_product_high .image_produt_high img {
+    width: 100%;
+}
+
+
+/* chia 3 sản phẩm */
+
+.title_product {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.title_product p {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 3px solid black;
+}
+
+.product {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.product .product_sneaker {
+    width: 30.33%;
+}
+
+.product .product_sneaker .imgage_product img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.product .product_sneaker .detail_product {
+    text-align: center;
+}
+
+.product .product_sneaker .detail_product .name_product p {
+    font-size: 16px;
+    font-family: cursive;
+}
+
+.product .product_sneaker .detail_product .name_product p a {
+    font-size: 16px;
+    font-family: cursive;
+    text-decoration: none;
+    color: black;
+}
+
+.product .product_sneaker .price_product .price_cost {
+    margin-right: 5%;
+    color: darkgray;
+    text-decoration: line-through;
+}
+
+
+/* banner */
+
+.banner_position {
+    margin-top: 50px;
+    position: relative;
+    color: white;
+}
+
+.banner_position .image_banner_category img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.banner_position .content_banner_category {
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    color: white;
+}
+
+.banner_position .content_banner_category .content_category_one p {
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+.banner_position .content_banner_category .detail_ccontent {
+    border: 1px solid black;
+    background: black;
+    width: 20%;
+    border-radius: 9px 9px 9px 9px;
+}
+
+.banner_position .content_banner_category .detail_ccontent p a {
+    color: white;
+    margin-left: 12%;
+    text-decoration: none;
+}
+
+.title_product_two {
+    margin-top: 20px;
+}
+
+.title_product_two p {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: 3px solid black;
+}
+
+.footer {
+    margin-top: 40px;
+    background: #666;
+    height: 400px;
+    padding: 0px 17% 0px;
+    background-color: rgb(23, 23, 23);
+}
+
+.footer .footer_one {
+    display: flex;
+    gap: 50px;
+    border-bottom: solid 1px #dae1e7;
+    margin-bottom: 2em;
+}
+
+.footer .footer_introduce {
+    width: 25%;
+    color: white;
+    margin-top: 50px;
+}
+
+.footer .footer_introduce .title_introduce {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.footer .footer_introduce .body_introduce p i {
+    font-size: 30px;
+}
+
+.footer .girl_flex {
+    display: flex;
+    gap: 33px;
+}
+
+.footer .footer_introduce .botton {
+    max-width: 44px;
+    border-bottom: 2px solid rgb(195, 0, 5);
+}
+
+
+/* css product */
+
+.product_frame .product_cut {
+    display: flex;
+}
+
+.product_frame .product_cut .left_product {
+    width: 20%;
+}
+
+.product_frame .product_cut .left_product .title_left_product .prodcut_one {
+    display: flex;
+    padding-top: 3%;
+    border-top: 1px dashed #ececec;
+}
+
+.product_frame .product_cut .left_product .title_left_product .prodcut_one .image_product_left {
+    width: 25%;
+    padding-top: 4%;
+}
+
+.product_frame .product_cut .left_product .title_left_product .prodcut_one .name_left_product_one {
+    width: 75%;
+    padding-left: 5%;
+}
+
+.product_frame .product_cut .right_product {
+    width: 80%;
+}
+
+.product_frame .product_cut .right_product .product {
+    gap: 40px;
+}
+
+.product_frame .product_cut .right_product .product .product_sneaker .imgage_product img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+
+/* css detail product */
+
+.detail_product_all {
+    width: 100%;
+    display: flex;
+}
+
+.detail_product_all .image_detail_one {
+    width: 50%;
+}
+
+.detail_product_all .sub_photo {
+    width: 50%;
+    display: flex;
+}
+
+.detail_product_all .sub_photo img {
+    width: 50%;
+}
+
+.buttons_added {
+    opacity: 1;
+    display: inline-block;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    white-space: nowrap;
+    vertical-align: top;
+}
+
+.is-form {
+    overflow: hidden;
+    position: relative;
+    background-color: #f9f9f9;
+    height: 2.rem;
+    width: 1.9rem;
+    padding: 0;
+    text-shadow: 1px 1px 1px #fff;
+    border: 1px solid #ddd;
+}
+
+
+/* .is-form:focus,
+.input-text:focus {
+    outline: none;
+} */
+
+.is-form.minus {
+    border-radius: 4px 0 0 4px;
+}
+
+.is-form.plus {
+    border-radius: 0 4px 4px 0;
+}
+
+.input-qty {
+    background-color: #fff;
+    height: 2.2rem;
+    text-align: center;
+    font-size: 1rem;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-left: 0;
+    border-right: 0;
+    padding: 0;
+}
+
+
+/* .input-qty::-webkit-outer-spin-button,
+.input-qty::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+} */
+
+.information_product {
+    margin-top: 65px;
+    padding-left: 5%;
+}
+
+.information_product h4 {
+    color: rgba(102, 102, 102, 0.7);
+}
+
+.information_product .name_detail_product p {
+    font-weight: 700;
+    font-size: 30px;
+    color: #1c1c1c;
+}
+
+.information_product .price_detail_product span {
+    white-space: nowrap;
+    color: #111;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.information_product .paypol p {
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.information_product .ship_cod p {
+    font-size: 20px;
+    font-family: emoji;
+    font-weight: bold;
+}
+
+.information_product .cart_detail {
+    display: flex;
+    margin-top: 20px;
+}
+
+.information_product .cart_detail .add_to-cart {
+    margin-left: 15%;
+}
+
+.information_product .cart_detail .add_to-cart .button {
+    height: 37px;
+    border: none;
+    background-color: #d26e4b;
+    color: white;
+    font-size: 15px;
+}
+
+.information_product .color_product button {
+    border: 1px solid rgba(0, 0, 0, .09);
+    background: white;
+    width: 9%;
+    height: 25px;
+}
+
+.information_product .size_product button {
+    border: 1px solid rgba(0, 0, 0, .09);
+    background: white;
+    width: 9%;
+    height: 25px;
+    margin-top: 10px;
+}
+
+
+/* trang liên hệ */
+
+.banner_contact {
+    background-size: 100%;
+    background-image: url(http://mauweb.monamedia.net/converse/wp-content/uploads/2019/05/banner-1-1.jpg);
+    /* margin-top: 40px; */
+}
+
+.banner_contact .title_contact {
+    text-align: center;
+    height: 300px;
+}
+
+.banner_contact .title_contact .content_contact {
+    padding-top: 5%;
+}
+
+.banner_contact .title_contact .content_contact p {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 15px;
+    color: white;
+}
+
+.banner_contact .title_contact .content_contact span a {
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.contact_all {
+    display: flex;
+    width: 100%;
+}
+
+.contact_all .left_contact {
+    width: 50%;
+}
+
+.contact_all .right_contact {
+    width: 50%;
+}
+
+.contact_all .right_contact .name_gmail,
+.phone_address {
+    display: flex;
+    margin-top: 20px;
+}
+
+.contact_all .right_contact input {
+    height: 35px;
+    width: 85%;
+    border: outset;
+    outline: none;
+    color: gray;
+}
+
+.contact_all .right_contact textarea {
+    border: outset;
+    outline: none;
+    color: gray;
+    margin-top: 20px;
+}
+
+.contact_all .right_contact .submit_form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact_all .right_contact .submit_form button {
+    width: 30%;
+    height: 40px;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    background: red;
+    ;
+}
+
+.contact_all .left_contact p {
+    font-size: 17px;
+    font-family: cursive;
+}
+
+.contact_all .left_contact p span {
+    font-size: 17px;
+    font-family: cursive;
+    color: #d26e4b;
+}
+
+.contact_all .left_contact .body_introduce {
+    display: flex;
+    gap: 20px;
+}
+
+.contact_all .left_contact .body_introduce p i {
+    font-size: 30px;
+    background: white;
+}
